@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:#f4fff4;
+}
+
+header.header{
+	color:#1a0f00;
+	text-shadow: 1px 1px #e68600;
+	height: 150px;
+	margin: 0;
+	padding: 1px;
+	background: #87da83;
+	overflow: hidden;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	font-size: 1rem;
+}
+h1{
+	font-weight: normal;
+	font-size: 2em;
+	margin-top: 30px;
+	color:#1a0f00;
+	text-shadow: 1px 1px #e68600;
+}
+p{
+	font-size: 0.875em;
+}
+
+input[type=submit] {
+	background: none;
+	border: none;
+	cursor: pointer;
+	background: green;
+	color: white;
+	padding: 15px 30px;
+	font-weight: 300;
+	font-size: 1.25em;
+	border-radius: 20%;
+}
+input[type=submit]:hover {
+	background: pink;
+}
